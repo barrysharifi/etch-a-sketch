@@ -1,0 +1,23 @@
+.title{
+    color: aqua;
+    border-color:black;
+    border-style: solid;
+}
+#gridContainer{
+    display: grid;
+    grid-template-columns: repeat(16, ifr);
+    grid-template-rows: repeat(16, ifr);
+    gap: 1px;
+    width:600px;
+    height: 600px;
+}
+#gridContainer{
+    background-color: gray;
+}
+div {
+    border-style: solid;
+}
+.grid-item{
+    border-style: solid black;
+    border-radius: 3px;
+}
